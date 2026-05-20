@@ -5,7 +5,7 @@ defmodule HelloServer do
   plug :dispatch
 
   get "/" do
-    send_resp(conn, 200, "Servidor Elixir OK")
+    send_resp(conn, 200, "Server Status OK")
   end
 
   match _ do
