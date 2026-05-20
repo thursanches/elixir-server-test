@@ -8,6 +8,10 @@ defmodule HelloServer do
     send_resp(conn, 200, "Server Status OK")
   end
 
+  get "/users/:nome" do
+  send_resp(conn, 200, "Hi, #{nome}! You accessed this endpoint.")
+end
+
   match _ do
     send_resp(conn, 404, "404")
   end
