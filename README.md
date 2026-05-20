@@ -17,3 +17,5 @@ mix run --no-halt
 ```
 
 The server will be up and running at: http://localhost:4000
+
+To access a personalized message -> http://localhost:4000/users/your_name
