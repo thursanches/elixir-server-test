@@ -1,22 +1,19 @@
 # HelloServer
 
-**TODO: Add description**
+A minimalist, lightweight web server built in Elixir for learning purposes, using the `Plug` specification.
 
-## Installation
+## How to Run
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hello_server` to your list of dependencies in `mix.exs`:
+First, ensure you have Elixir installed. Then, download the project dependencies:
 
-```elixir
-def deps do
-  [
-    {:hello_server, "~> 0.1.0"}
-  ]
-end
+```bash
+mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/hello_server>.
+To start the server and keep it running in your terminal, execute:
 
-# elixir-server-test
+```bash
+mix run --no-halt
+```
+
+The server will be up and running at: http://localhost:4000
